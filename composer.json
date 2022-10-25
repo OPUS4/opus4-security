@@ -52,21 +52,5 @@
     "cs-check": "phpcs -n",
     "cs-report": "phpcs -n --report=checkstyle --report-file=build/checkstyle.xml",
     "cs-fix": "phpcbf"
-  },
-  "repositories": [
-    {
-      "type": "path",
-      "url": "/home/jens/projects/opus4-common",
-      "options": {
-        "symlink": true
-      }
-    },
-    {
-      "type": "path",
-      "url": "/home/jens/projects/opus4framework",
-      "options": {
-        "symlink": true
-      }
-    }
-  ]
+  }
 }
