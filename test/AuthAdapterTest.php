@@ -66,7 +66,7 @@ class AuthAdapterTest extends TestCase
     /**
      * Set up test account.
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 
