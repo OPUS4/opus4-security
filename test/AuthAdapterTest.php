@@ -54,7 +54,7 @@ class AuthAdapterTest extends TestCase
      *
      * @return array Invalid credentials and\Zend_Auth_Result error code.
      */
-    public function invalidCredentialsDataProvider()
+    public static function invalidCredentialsDataProvider()
     {
         return [
             ['bob', 'wrong_password', Zend_Auth_Result::FAILURE_CREDENTIAL_INVALID],
